@@ -24,7 +24,7 @@ const Restaurant = () => {
         <div>
 
             <h2> search your food </h2>
-            <input onChange={searchFood} type="text"name="" id='' />
+            <input className='border-black border-2' onChange={searchFood} type="text"name="" id='' />
             <br />
             <h2> Result found: {meals.length}</h2>
             <div className='meals-container'>
